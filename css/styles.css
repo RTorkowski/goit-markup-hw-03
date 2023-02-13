@@ -1,0 +1,66 @@
+.logo {
+  color: black;
+  font-family: "Raleway";
+}
+.brand-color-logo {
+  color: #2196f3;
+}
+
+.brand-color-logo2 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #2196f3;
+}
+
+.nav-style {
+  color: rgb(75, 75, 75);
+  text-decoration: none;
+  list-style: none;
+  ;
+}
+
+.nav-style-footer {
+  color: rgb(255, 255, 255, 60%);
+  text-decoration: none;
+  list-style: none;
+}
+
+.contac-style {
+  color: rgb(21, 21, 21);
+  text-decoration: none;
+  list-style: none;
+}
+
+.baton-style {
+  list-style: none;
+}
+
+.baton:hover {
+background-color: #2196f3;
+color: white;
+}
+
+.image-style {
+  list-style: none;
+}
+.image-p {
+  color: rgb(75, 75, 75);
+}
+
+.footer {
+  background-color: rgb(47, 48, 58);
+}
+
+.adress {
+  color: white;
+}
+
+.heading{
+    color:white;
+    background-color: #2F303A;
+}
