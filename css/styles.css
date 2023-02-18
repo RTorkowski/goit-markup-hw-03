@@ -1,3 +1,22 @@
+
+
+
+.body-style{
+  font-family: "Roboto", sans-serif;
+}
+
+.lorem-list{
+  list-style: none;
+}
+
+.lorem-style-1{
+  color:rgb(75, 75, 75)
+}
+
+.lorem-style-2{
+  color: rgb(21, 21, 21);
+}
+
 .logo {
   color: black;
   font-family: "Raleway";
@@ -63,4 +82,5 @@ color: white;
 .heading{
     color:white;
     background-color: #2F303A;
+    line-height: 1,36;
 }
