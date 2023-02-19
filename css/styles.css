@@ -1,12 +1,23 @@
 
+.box{
+  display: flex;
+}
 
+.box-footer{
+display: flex;
+flex-direction:column
+
+}
 
 .body-style{
+  height: 80px;
+  width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 
 .lorem-list{
   list-style: none;
+  display: flex;
 }
 
 .lorem-style-1{
@@ -37,10 +48,11 @@ a:hover, a:focus {
 }
 
 .nav-style {
+  
   color: rgb(75, 75, 75);
   text-decoration: none;
   list-style: none;
-  ;
+  
 }
 
 .nav-style-footer {
@@ -49,13 +61,23 @@ a:hover, a:focus {
   list-style: none;
 }
 
+.contact-style-footer{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
 .contac-style {
+display: flex;
+justify-content: flex-end;
   color: rgb(21, 21, 21);
   text-decoration: none;
   list-style: none;
 }
 
 .baton-style {
+  display: flex;
+  justify-content: center;
   list-style: none;
 }
 
@@ -65,6 +87,10 @@ color: white;
 }
 
 .image-style {
+  height: 1360px;
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 .image-p {
@@ -79,8 +105,41 @@ color: white;
   color: white;
 }
 
-.heading{
-    color:white;
-    background-color: #2F303A;
-    line-height: 1,36;
+header{
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  display: flex;
+  align-items: center;
+
 }
+
+.heading{
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:white;
+  background-color: #2F303A;
+  line-height: 1,36;
+}
+ .imagine-box{
+  width: 1170px;
+  height: 386px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .imagine-box-team{
+  width: 1170px;
+  height: 386px;
+  top: 1635px;
+  left: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
