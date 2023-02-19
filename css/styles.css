@@ -1,4 +1,9 @@
 
+.container{
+width: 1200px;
+
+}
+
 .box{
   display: flex;
 }
@@ -28,8 +33,7 @@ flex-direction:column
   }
 
 .body-style{
-  height: 80px;
-  width: 1600px;
+ 
   font-family: "Roboto", sans-serif;
 }
 
@@ -119,9 +123,7 @@ header{
 }
 
 .heading{
-  width: 1600px;
-  height: 600px;
-  top: 80px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
