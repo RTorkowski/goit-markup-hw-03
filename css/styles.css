@@ -1,7 +1,6 @@
 
 .container{
 width: 1200px;
-
 }
 
 .box{
@@ -37,9 +36,17 @@ flex-direction:column
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+.container-lorem{
+width: 1170px;
+  }
+
 .lorem-list{
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .lorem-style-1{
@@ -68,8 +75,6 @@ a {
 a:hover, a:focus {
   color: #2196f3;
 }
-
-
 
 .nav-style-footer {
   color: rgb(255, 255, 255, 60%);
@@ -119,11 +124,11 @@ header{
   display: flex;
   display: flex;
   align-items: center;
-
 }
 
 .heading{
-  
+  width: 1600px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,6 +137,7 @@ header{
   background-color: #2F303A;
   line-height: 1,36;
 }
+
  .imagine-box{
   width: 1170px;
   height: 386px;
