@@ -9,6 +9,24 @@ flex-direction:column
 
 }
 
+.logo-contact-nav{
+  display: flex;
+}
+
+.contac-style {
+  display: flex;
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .nav-style {
+  display: flex;
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    list-style: none;
+  }
+
 .body-style{
   height: 80px;
   width: 1600px;
@@ -47,13 +65,7 @@ a:hover, a:focus {
   color: #2196f3;
 }
 
-.nav-style {
-  
-  color: rgb(75, 75, 75);
-  text-decoration: none;
-  list-style: none;
-  
-}
+
 
 .nav-style-footer {
   color: rgb(255, 255, 255, 60%);
@@ -65,14 +77,6 @@ a:hover, a:focus {
   list-style: none;
   display: flex;
   flex-direction: column;
-}
-
-.contac-style {
-display: flex;
-justify-content: flex-end;
-  color: rgb(21, 21, 21);
-  text-decoration: none;
-  list-style: none;
 }
 
 .baton-style {
@@ -142,4 +146,5 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #F5F4FA;
  }
