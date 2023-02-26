@@ -10,12 +10,18 @@ width: 1200px;
 
 .box-footer{
 display: flex;
-flex-direction:column
-
+flex-direction: column;
 }
 
 .logo-contact-nav{
   display: flex;
+  align-content: center;
+  align-items: center
+}
+
+.email-tel{
+  display: flex;
+  align-items: center;
 }
 
 .contac-style {
@@ -34,7 +40,7 @@ flex-direction:column
 
 .body-style{
   margin: 0 auto;
-  width: 1600px;
+  
   color: var(--brand-text-color);
   font-family: var(--brand-font);
   font-family: "Roboto", sans-serif;
@@ -44,13 +50,15 @@ flex-direction:column
   box-sizing: border-box;
 }
 .container-lorem{
-width: 1170px;
+
+display: flex;
+
   }
 
 .lorem-list{
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  
 }
 
 .lorem-style-1{
@@ -104,10 +112,10 @@ color: white;
 }
 
 .image-style {
-  height: 1360px;
-  width: 1170px;
+  
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
 }
 .image-p {
@@ -123,15 +131,13 @@ color: white;
 }
 
 header{
-  width: 1600px;
-  height: 80px;
-  display: flex;
+ 
   display: flex;
   align-items: center;
 }
 
 .heading{
-  width: 1600px;
+ 
   height: 600px;
   display: flex;
   align-items: center;
@@ -143,7 +149,6 @@ header{
 }
 
  .imagine-box{
-  width: 1170px;
   height: 386px;
   display: flex;
   flex-direction: column;
@@ -151,10 +156,6 @@ header{
  }
 
  .imagine-box-team{
-  width: 1170px;
-  height: 386px;
-  top: 1635px;
-  left: 215px;
   display: flex;
   flex-direction: column;
   align-items: center;
