@@ -38,6 +38,7 @@ flex-direction: column;
     color: rgb(75, 75, 75);
     text-decoration: none;
     list-style: none;
+    padding: 0;
   }
 
 .body-style{
@@ -97,6 +98,7 @@ a:hover, a:focus {
   list-style: none;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .baton{
@@ -166,6 +168,7 @@ margin-top: 15px;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
+  padding: 0;
   
 }
 .image-p {
