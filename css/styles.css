@@ -12,6 +12,7 @@ width: 1200px;
 .box-footer{
 display: flex;
 flex-direction: column;
+padding: 60px;
 }
 
 .logo-contact-nav{
@@ -31,6 +32,7 @@ flex-direction: column;
   color: rgb(21, 21, 21);
   text-decoration: none;
  list-style: none;
+ padding: 23px;
   }
 
   .nav-style {
@@ -39,6 +41,7 @@ flex-direction: column;
     text-decoration: none;
     list-style: none;
     padding: 0;
+    margin-left: 93px;
   }
 
 .body-style{
@@ -48,18 +51,19 @@ flex-direction: column;
 }
 
 .container-lorem{
-  
-margin: 94px;
-
+  margin-top: 94px;
+  margin-bottom: 94px;
   }
 
 .lorem-list{
   list-style: none;
   display: flex;
-
+  padding: 0;
 }
 
-
+.lorem-margin{
+  padding: 15px
+}
 
 .lorem-style-1{
   color:rgb(75, 75, 75)
@@ -88,18 +92,6 @@ a:hover, a:focus {
   color: #2196f3;
 }
 
-.nav-style-footer {
-  color: rgb(255, 255, 255, 60%);
-  text-decoration: none;
-  list-style: none;
-}
-
-.contact-style-footer{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
 
 .baton{
   width: 200px;
@@ -181,7 +173,24 @@ margin-top: 15px;
 
 .adress {
   color: white;
+
 }
+
+.nav-style-footer {
+  color: rgb(255, 255, 255, 60%);
+  text-decoration: none;
+  list-style: none;
+}
+
+.contact-style-footer{
+  height: 81px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
 
 h1{
   width: 696px;
